@@ -491,6 +491,10 @@ body{
       right: 0;
     }
   }
+  
+  @media (min-width: $mq-tablet) {
+    display: none;
+  }
 }
 
 
