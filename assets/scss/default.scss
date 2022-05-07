@@ -1,0 +1,66 @@
+@import "./fonts.scss";
+
+html {
+  box-sizing: border-box;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+
+  color: #000000;
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+
+  font-family: inherit;
+  font-weight: inherit;
+
+  color: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #00000000;
+  transition: border-bottom .1s ease-in;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+// reset texts tag
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
